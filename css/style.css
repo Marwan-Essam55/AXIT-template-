@@ -1,0 +1,818 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+span{
+    font-weight: lighter;
+}
+
+
+.black-bg {
+  background-color: #2a2a2a;
+}
+nav {
+  padding: 1% 0;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h2 a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Gill Sans', sans-serif;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+.nav-menu li :hover {
+  color: rgb(255,149,0);
+}
+.nav-menu li {
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Gill Sans', sans-serif;
+}
+.text-orange {
+   color: rgb(255,149,0) !important;
+}
+
+
+.sec1 {
+  background: url('../images/pexels-daniel-stahl-2152879153-32494678.jpg') center/cover no-repeat;
+  height: 420px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+.half-leftcon {
+  float: left;
+  width: 48%;
+  padding: 2% 1%;
+  font-family: Arial, sans-serif;
+}
+.half-leftcon h1,
+.half-leftcon h2 {
+  color: #fff;
+}
+.half-leftcon h1 {
+  font-size: 4.5rem;
+}
+.half-leftcon h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.half-leftcon hr {
+  width: 50px;
+  height: 3px;
+  background: #fff;
+  border: none;
+  margin: 10px 0;
+}
+.half-leftcon p {
+  color: rgba(255,255,255,0.7);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.half-leftcon button {
+  padding: 10px 23px;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.div1 {
+  float: right;
+  width: 32%;
+  margin-top: 2%;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.head {
+  background: #f4f4f4;
+  padding: 14px 0;
+  font-size: 1rem;
+}
+.input {
+  width: 80%;
+  padding: 10px 0;
+  border: none;
+  display: block;
+  margin: 10px auto;
+}
+.div1 hr {
+  width: 80%;
+  margin: 22px auto;
+  border: none;
+  background: #ddd;
+  height: 1px;
+}
+.div1 button {
+  width: 100%;
+  padding: 15px 0;
+  background: rgb(255,149,0);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.half-leftcon button:hover {
+  background: rgb(255,149,0);
+}
+.nav-menu li.text-orange  a {
+  color: rgb(255,149,0);
+}
+.social {
+  padding: 40px 0;
+  background: #f9f9f9;
+}
+
+.social-text {
+  float: left;
+  width: 50%;
+  font-family: Arial, sans-serif;
+}
+
+.social-text h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.social-text p {
+  color: rgba(0,0,0,0.7);
+  line-height: 1.5;
+}
+
+.social-icons-container {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.social-icons i {
+  font-size: 2.5rem;
+  color: rgba(0,0,0,0.2);
+  transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+  color: rgb(255,149,0);
+}
+.greay-sec {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+
+
+.tabs {
+  float: left;
+  width: 15%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.tab {
+  padding: 30px 10px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tab.t1 {
+  background-color: rgb(255,149,0);
+}
+
+.tabs hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background: #444;
+}
+
+.tabtext {
+  float: left;
+  width: 45%;
+  padding: 0 5%;
+  font-family: Arial, sans-serif;
+}
+
+.tabtext h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.tabtext p {
+  color: rgba(110,109,109,0.8);
+  line-height: 1.6;
+}
+
+.tab-img {
+  float: right;
+  width: 20%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+-webkit-box-reflect: below 1px
+    linear-gradient(
+      transparent,
+      rgba(255,255,255,0.3)
+);
+ 
+}
+
+
+.sec4 {
+  padding: 60px 0;
+}
+.container.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.image-box {
+  float: left;
+  width: 48%;
+}
+.image-box img {
+  width: 100%;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.text-box {
+  float: right;
+  width: 48%;
+  font-family: Arial, sans-serif;
+}
+.text-box h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+.text-box hr {
+  width: 50px;
+  height: 3px;
+  background: rgb(255,149,0);
+  border: none;
+  margin: 10px 0;
+}
+.text-box p {
+  margin-bottom: 20px;
+  color: rgba(0,0,0,0.7);
+  line-height: 1.6;
+}
+.sub-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sub-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.circle-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px; 
+  border: 2px solid rgb(255, 149, 0);
+  border-radius: 50%;
+  color: rgb(255, 149, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.sec4 img{
+    box-shadow: 2px 2px 9px 8px rgba(0,0,0,.2);
+}
+.standard-sec {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.text-left {
+  float: left;
+  width: 48%;
+  font-family: Arial, sans-serif;
+}
+
+.text-left h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.text-left hr {
+  width: 50px;
+  height: 3px;
+  background: rgb(255,149,0);
+  border: none;
+  margin: 10px 0;
+}
+
+.text-left p {
+  margin-bottom: 20px;
+  color: rgba(0,0,0,0.7);
+  line-height: 1.6;
+}
+
+.image-right {
+  float: right;
+  width: 48%;
+}
+
+.image-right img {
+  width: 100%;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.standard-sec p{
+  color: rgba(127, 127, 127, 0.7);
+
+}
+.social p{
+      color: rgba(127, 127, 127, 0.7);
+}
+.awesome-sec {
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.sec-title {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.orange-line {
+  width: 50px;
+  height: 3px;
+  background: rgb(255,149,0);
+  border: none;
+  margin: 10px auto;
+}
+
+.sec-subtitle {
+  color: rgba(0,0,0,0.6);
+  margin-bottom: 40px;
+}
+
+.awesome-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.awesome-item {
+  width: 30%;
+  padding: 20px 10px;
+}
+
+.awesome-item .circle-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  border: 2px solid rgb(255,149,0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255,149,0);
+  font-size: 20px;
+  box-shadow: 2px 2px 9px .5px rgb(255,149,0);
+}
+
+.awesome-item h3 {
+  margin-bottom: 10px;
+}
+
+.awesome-item p {
+  color: rgba(0,0,0,0.4);
+ 
+}
+.circle-icon p{
+  color: rgba(0,0,0,0.4);
+    
+}
+.pricing-sec {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.pricing-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pricing-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 30%;
+  padding: 20px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.pricing-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2.5rem;
+  color: rgb(255,149,0);
+  margin: 15px 0;
+}
+
+.pricing-card hr {
+  width: 50%;
+  margin: 15px auto;
+  border: none;
+  height: 2px;
+  background: #eee;
+}
+
+.pricing-card p {
+  margin: 8px 0;
+  color: rgba(0,0,0,0.7);
+}
+
+.pricing-card button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  background: rgb(255,149,0);
+  color: #fff;
+  cursor: pointer;
+}
+
+.featured {
+  border: 2px solid rgb(255,149,0);
+  transform: scale(1.05);
+}
+.pricing{
+    width: 100%;
+    color: white;
+    /* height: 40px; */
+    background-color: #333333;
+      width: 310px;
+      padding: 23px 0 0 0;
+        text-align: center;
+       
+
+}
+.pricing h4{
+    font-size: large;
+}
+.pricing hr{
+    width: 100%;
+    margin-top: 18px;
+    
+}
+.pricing span{
+    font-size: 50px;
+    font-weight: bold;  
+}
+sub{
+    font-size: 30px;
+}
+p{
+    color: rgba(127, 127, 127, 0.7);
+}
+.orange{
+    width: 100%;
+    height: 5px;
+    background-color: #ff8b38;
+
+    border: none;
+}
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 310px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  
+}
+
+.features li {
+  padding: 12px;
+  color: #9c9c9c;
+  
+}
+
+.features hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background: #eee;
+}
+.pricing-list {
+  display: flex;
+  justify-content: center;   
+  gap: 140px;                 
+  flex-wrap: wrap;
+ 
+}
+.rr{
+  margin-top: 40px;
+}
+.mid{
+  padding-top: 48px;
+  box-shadow: 0px 0px 9px 2px rgb(255,149,0);
+  
+}
+.ormid{
+  padding-top: 20px;
+}
+.comments {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.comments .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comments .desc {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.comments-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.comment {
+  width: 30%;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.comment .quote {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.comment .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.comment .user h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.comment .user span {
+  font-size: 13px;
+  color: #888;
+}
+.download-sec {
+  background: url('../images/pexels-daniel-stahl-2152879153-32494678.jpg') center/cover no-repeat;
+  height: 300px;
+  text-align: center;
+}
+
+.download-sec .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-sec .container {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.download-sec h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+
+.download-sec p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.download-btn {
+  padding: 12px 30px;
+  border: none;
+  background: #ff8b38;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.contact-us {
+  padding: 60px 0;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.orange-line {
+  width: 50px;
+  height: 3px;
+  background: rgb(255,149,0);
+  border: none;
+  margin: 10px auto 30px;
+}
+
+.contact-desc {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.left-form,
+.right-form {
+  width: 48%;
+}
+
+.left-form input,
+.right-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+}
+
+.right-form textarea {
+  height: 160px;
+
+}
+
+.contact-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: rgb(255,149,0);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background: #e08a00;
+}
+.left-form hr,
+.right-form hr{
+background: #ddd;
+height: 1px;
+border: none;
+margin-bottom: 10px;
+}
+.main-footer {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-logo {
+  float: left;
+  width: 50%;
+}
+
+.footer-logo h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.footer-icons {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.social-icons-vertical {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons-vertical li {
+  margin: 10px 0;
+}
+
+.social-icons-vertical a i {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.3);
+  transition: color 0.3s ease;
+}
+
+.social-icons-vertical a:hover i {
+  color: rgb(255,149,0);
+}
+.footer-icons-only {
+  background-color: #2a2a2a;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-icons-only a i {
+  font-size: 1.5rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: rgb(255, 149, 0);
+}
+footer p{
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.3);
+}
